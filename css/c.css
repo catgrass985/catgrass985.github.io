@@ -16,8 +16,27 @@ body{
     line-height: 1;
     color: #192163;
 }
-.work-photo{
-    max-width: 300px;
-    height: auto;
+.portfolio-grid{
+    display: grid;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    max-width: 2000px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #92bdcc;
+    border-radius: 20px;
 
+}
+.work-photo{
+    width: 100%;
+    height: auto;
+    display: block
+}
+.work-photo:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
 }
