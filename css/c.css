@@ -1,0 +1,23 @@
+body{
+    background-color: lightblue;
+
+}
+.container{
+    display: flex;
+    align-items: first;
+    gap:10px;
+    margin-bottom: 10px;
+}
+.avatar{
+    max-width: 200px;
+    height: auto;
+}
+.content-section{
+    line-height: 1;
+    color: #192163;
+}
+.work-photo{
+    max-width: 300px;
+    height: auto;
+
+}
